@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ballon d'or</title>
 
+    <link rel="stylesheet" href="https://use.typekit.net/uyk3tkc.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -27,21 +29,59 @@
   <body>
     <!-- section [Navigation] -->
     <nav>
-      <a href="index.html"><img src="/assets/img/logo.png" alt="logo" /></a>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a class="signup-btn" href="#">Sign up</a></li>
+        <li><a href="#">WINNERS</a></li>
+        <li><a href="#">AWARDS</a></li>
+        <li><a href="#">VOTING</a></li>
       </ul>
 
+      <a href="index.html"><img src="/assets/img/logo.png" alt="logo" /></a>
+
+      <ul class="nav-links">
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">GALLERY</a></li>
+        <li><a href="#">HISTORY</a></li>
+      </ul>
       <i class="fa-solid fa-bars burgerMenuOpen"></i>
       <i class="fa-solid fa-xmark burgerMenuClose"></i>
     </nav>
 
     <!-- Section [Hero] -->
-    <section class="hero"></section>
+    <section class="hero">
+      <div class="slider-wrapper" id="slider01">
+        <div class="slides">
+          <div class="display"></div>
+
+          <div class="display"></div>
+
+          <div class="single-slide">
+            <div class="slide-content"></div>
+            <img src="" alt="Slide Image 1" />
+          </div>
+
+          <div class="single-slide">
+            <div class="slide-content"></div>
+            <img src="" alt="Slide Image 2" />
+          </div>
+
+          <div class="single-slide">
+            <div class="slide-content"></div>
+            <img src="" alt="Slide Image 3" />
+          </div>
+        </div>
+
+        <div class="slider-buttons">
+          <button class="previous-btn" data-direction="previous">
+            Tilbage
+          </button>
+          <button class="next-btn" data-direction="next">Frem</button>
+        </div>
+      </div>
+
+      <div class="hero-video">
+        <div><video src="/assets/img/hero/speech.mp4"></video></div>
+      </div>
+    </section>
 
     <!-- Section [Player list] -->
     <section class="player-container"></section>

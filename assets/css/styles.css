@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #1f1f1f;
 }
 
 /*Heading sizes*/
@@ -68,20 +69,16 @@ nav ul {
 }
 
 nav img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 80px;
   margin-left: 20px;
 }
 
 nav a {
   font-size: 1.8rem;
-  font-weight: 600;
-  color: white;
-}
-
-.nav-links a:hover {
-  color: tomato;
-  transition: all 250ms ease-in-out;
+  font-weight: bold;
+  color: goldenrod;
+  font-family: "the-seasons", sans-serif;
 }
 
 nav i {
@@ -92,24 +89,6 @@ nav i {
 .burgerMenuClose {
   display: none;
   color: white;
-}
-
-.signup-btn {
-  display: inline-block;
-  padding: 13px 35px;
-  font-size: 1.6rem;
-  border-radius: 15px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  background-color: tomato;
-  cursor: pointer;
-}
-
-.signup-btn:hover {
-  background-color: rgb(224, 82, 57);
-  transition: all 250ms ease-in-out;
 }
 
 .nav-links a {
@@ -124,7 +103,7 @@ nav i {
   width: 0;
   display: block;
   margin-top: 7px;
-  background-color: white;
+  background-color: goldenrod;
   transition: all 300ms ease-in-out;
 }
 
