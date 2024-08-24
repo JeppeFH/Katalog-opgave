@@ -15,9 +15,6 @@
     "redCards": "0",
     "tackles": "2",
     "fouls": "12",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   },
 
@@ -37,9 +34,6 @@
     "redCards": "0",
     "tackles": "4",
     "fouls": "10",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   },
 
@@ -59,9 +53,6 @@
     "redCards": "0",
     "tackles": "2",
     "fouls": "15",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   },
 
@@ -81,9 +72,6 @@
     "redCards": "0",
     "tackles": "10",
     "fouls": "8",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   },
 
@@ -103,9 +91,6 @@
     "redCards": "0",
     "tackles": "80",
     "fouls": "27",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   },
 
@@ -125,9 +110,6 @@
     "redCards": "1",
     "tackles": "17",
     "fouls": "26",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   },
 
@@ -147,9 +129,6 @@
     "redCards": "0",
     "tackles": "17",
     "fouls": "12",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   },
 
@@ -169,9 +148,6 @@
     "redCards": "0",
     "tackles": "21",
     "fouls": "14",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   },
 
@@ -191,9 +167,6 @@
     "redCards": "0",
     "tackles": "16",
     "fouls": "21",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   },
 
@@ -213,9 +186,6 @@
     "redCards": "0",
     "tackles": "15",
     "fouls": "18",
-    "basicStat": "assets/img/player-info/basic-statistics.png",
-    "defensiveStat": "assets/img/player-info/defensive-statistics.png",
-    "aggresiveStat": "assets/img/player-info/aggresive-statistics.png",
     "highlightVideo": "assets/img/highlight-video/"
   }
 ]

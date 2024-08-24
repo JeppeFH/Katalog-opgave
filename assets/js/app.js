@@ -1,27 +1,14 @@
 import { playersList } from "./player-lists.js";
 import { playersPage } from "./player-page.js";
+import { nav } from "./nav.js";
+import { slider } from "./slider.js";
 const app = {};
 
 app.init = async () => {
   playersList();
   playersPage();
+  nav();
+  slider();
 };
 
 app.init();
-
-/*Navigation*/
-let burgerMenuOpen = document.querySelector(".burgerMenuOpen");
-let burgerMenuClose = document.querySelector(".burgerMenuClose");
-let navLinks = document.querySelector(".nav-links");
-
-burgerMenuOpen.addEventListener("click", () => {
-  navLinks.classList.add("active");
-  burgerMenuOpen.classList.add("active");
-  burgerMenuClose.classList.add("active");
-});
-
-burgerMenuClose.addEventListener("click", () => {
-  navLinks.classList.remove("active");
-  burgerMenuOpen.classList.remove("active");
-  burgerMenuClose.classList.remove("active");
-});
