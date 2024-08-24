@@ -134,8 +134,111 @@ nav i {
 }
 
 /*Section [Hero]*/
+.hero {
+  display: flex;
+  max-width: 100%;
+  padding: 0 30px;
+  height: 80vh;
+}
 
-/*Section [name]*/
+/*Vores Overordnede slider komponent */
+.slider-wrapper {
+  height: 100%;
+  width: 50%;
+}
+
+.slider-buttons {
+  display: flex;
+  gap: 10px;
+  bottom: 35px;
+  position: relative;
+  margin-left: 5px;
+}
+
+.slider-buttons button {
+  background-color: goldenrod;
+  border: 2px solid rgb(183, 138, 26);
+  padding: 6px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.slider-buttons button:hover {
+  background-color: rgb(204, 155, 31);
+}
+
+/* Slider´s slide */
+.slider-wrapper .slides .single-slide {
+  position: relative;
+  display: none; /* Slides er som udgangspunkt display:none - Kun når de får class'en 'active', bliver de vist */
+  user-select: none;
+  height: 100%;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+/* Slider´s slide, når den er active/valgt */
+.slider-wrapper .slides .single-slide.active {
+  display: flex;
+  justify-content: center;
+}
+
+/* Slider´s slide, img */
+.slider-wrapper .slides .single-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Slider´s slide, content område */
+.slider-wrapper .slides .slide-content {
+  position: absolute;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  border-radius: 16px;
+  text-align: center;
+  padding: 20px 20px;
+  bottom: 32px;
+}
+
+/* Slider´s , display område */
+.slider-wrapper .slides .display {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  height: 32px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Video */
+.hero-video {
+  width: 50%;
+}
+
+.hero-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-video video::before {
+  content: "";
+  position: absolute;
+  transform: translateY(-50%) rotate(20deg);
+}
+
+/*Section [Player list]*/
 
 /*Section [Footer]*/
 footer {
