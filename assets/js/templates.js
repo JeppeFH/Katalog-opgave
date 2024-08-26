@@ -25,10 +25,7 @@ export const playerListTmpl = (player) =>
   <p>${player.positionName}</p>
   </div>
 
-  
-
 <div>
-
   `;
 
 export const playerPageTmpl = (player) =>
@@ -37,10 +34,10 @@ export const playerPageTmpl = (player) =>
 
  <div class="grid-1">
 
-    <figure><img src="${player.picture}"></figure>
+    <figure><img src="${player.picture}${player.id}"></figure>
 
   <div class="grid-1-container"
-    <p class="player-name" >${player.name}</p>
+    <p class="player-name">${player.name}</p>
 
     <p class="headline">Position</p>
     <p class="headline">Place of birth</p>
@@ -68,35 +65,35 @@ export const playerPageTmpl = (player) =>
   </div>
 
   <div class="grid-3">
-   <p class="headline">Tackles</p>
-   <p>${player.tackles}</p>
+    <p class="headline">Tackles</p>
+    <p>${player.tackles}</p>
   </div>
 
   <div class="grid-4">
-   <p class="headline">Fouls</p>
-   <p>${player.fouls}</p>
+    <p class="headline">Fouls</p>
+    <p>${player.fouls}</p>
   </div>
 
   <div class="grid-5">
-   <p class="headline">Highlights</p>
-   <video src="${player.highlightVideo}">
+    <p class="headline">Highlights</p>
+    <video src="${player.highlightVideo}">
   </div>
   
   <div class="grid-6">
-  <img src="${player.yellowCardsPicture}">
-  <p class="headline">Yellow cards</p>
-  <p>${player.yellowCards}</p>
+    <img src="${player.yellowCardsPicture}">
+    <p class="headline">Yellow cards</p>
+    <p>${player.yellowCards}</p>
   </div>
 
   <div class="grid-7">
-  <img src="${player.redCardsPicture}">
-  <p class="headline">Red cards</p>
-  <p>${player.redCards}</p>
+    <img src="${player.redCardsPicture}">
+    <p class="headline">Red cards</p>
+    <p>${player.redCards}</p>
   </div>
 
   <div class="grid-8">
-  <p class="headline">Trophies</p>
-  <p>${player.trophies}</p>
+    <p class="headline">Trophies</p>
+    <p>${player.trophies}</p>
   </div>
 
   </div> 
