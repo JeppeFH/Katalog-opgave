@@ -1,0 +1,27 @@
+.player-page-container {
+  max-width: 100%;
+}
+
+.player-page-grid {
+  max-width: 80%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.player-page-grid .grid-1-container,
+.player-page-grid .grid-5-container {
+  max-width: 40%;
+  height: 450px;
+}
+
+.player-page-grid .grid-2-container,
+.player-page-grid .grid-3-container,
+.player-page-grid .grid-4-container,
+.player-page-grid .grid-6-container,
+.player-page-grid .grid-7-container,
+.player-page-grid .grid-8-container {
+  max-width: 20%;
+  height: 450px;
+}

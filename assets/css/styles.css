@@ -244,6 +244,11 @@ nav i {
 }
 
 /*Section [Player list]*/
+.player-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+}
 
 /*Section [Footer]*/
 footer {

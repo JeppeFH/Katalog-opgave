@@ -49,14 +49,7 @@ export function slider() {
   ];
 
   /* Billedbeskrivelse array */
-  const slideContents = [
-    "Lionel Messi wins this years Ballon d'or",
-    "Alexia Putellas wins the womens Ballon d'or",
-    "Vinicious Jr. takes home the Socrates Award for his humanitarian work",
-    "Emiliano Martinez wins the Yashin Trophy for best goalkeeper",
-    "Jude Bellingham wins the Kopa Trophy for best player under 21",
-    "Erling Haaland wins the Gerd Müller Trophy for best Striker",
-  ];
+  const slideContents = ["", "", "", "", "", ""];
 
   /* funktion (forEach) der "kører" de to arrays */
   /* index fortæller position af slides 0, 1, 2 osv, hvilket gør at den 
