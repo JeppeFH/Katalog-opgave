@@ -34,20 +34,20 @@ export const playerPageTmpl = (player) =>
 <div class="player-page-grid">
 
  <div class="grid-1">
- 
+
     <figure><img src="${player.picture}"></figure>
 
   <div class="grid-1-container"
     <p class="player-name" >${player.name}</p>
 
-    <p>Position</p>
-    <p>Place of birth</p>
+    <p class="headline">Position</p>
+    <p class="headline">Place of birth</p>
 
     <p>${player.position}</p>
     <p>${player.birthPlace}</p>
 
-    <p>Height</p>
-    <p>Date of birth</p>
+    <p class="headline">Height</p>
+    <p class="headline">Date of birth</p>
 
     <p>${player.height}</p>
     <p>${player.birthYear}</p>
@@ -55,45 +55,45 @@ export const playerPageTmpl = (player) =>
 </div>
 
   <div class="grid-2">
-    <p>Games</p>
-    <p>Goals</p>
+    <p class="headline">Games</p>
+    <p class="headline">Goals</p>
 
     <p>${player.games}</p>
     <p>${player.goals}</p>
 
-    <p>Assists</p>
+    <p class="headline">Assists</p>
     <p>${player.assists}</p>
   </div>
 
   <div class="grid-3">
-   <p>Tackles</p>
+   <p class="headline">Tackles</p>
    <p>${player.tackles}</p>
   </div>
 
   <div class="grid-4">
-   <p>Fouls</p>
+   <p class="headline">Fouls</p>
    <p>${player.fouls}</p>
   </div>
 
   <div class="grid-5">
-   <p>Highlights</p>
+   <p class="headline">Highlights</p>
    <video src="${player.highlightVideo}">
   </div>
   
   <div class="grid-6">
   <img src="${player.yellowCardsPicture}">
-  <p>Yellow cards</p>
+  <p class="headline">Yellow cards</p>
   <p>${player.yellowCards}</p>
   </div>
 
   <div class="grid-7">
   <img src="${player.redCardsPicture}">
-  <p>Red cards</p>
+  <p class="headline">Red cards</p>
   <p>${player.redCards}</p>
   </div>
 
   <div class="grid-8">
-  <p>Trophies</p>
+  <p class="headline">Trophies</p>
   <p>${player.trophies}</p>
   </div>
 
