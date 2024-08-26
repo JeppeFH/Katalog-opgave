@@ -34,6 +34,7 @@ export const playerPageTmpl = (player) =>
 <div class="player-page-grid">
 
  <div class="grid-1">
+ 
     <figure><img src="${player.picture}"></figure>
 
   <div class="grid-1-container"

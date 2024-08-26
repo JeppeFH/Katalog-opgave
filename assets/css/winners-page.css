@@ -10,6 +10,21 @@
   grid-template-rows: repeat(2, 1fr);
 }
 
+.grid-1 {
+  display: flex;
+}
+
+.grid-1 img {
+  width: 30%;
+  height: 30%;
+}
+
+.grid-1-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(auto, auto);
+}
+
 .player-page-grid .grid-1-container,
 .player-page-grid .grid-5-container {
   max-width: 40%;
