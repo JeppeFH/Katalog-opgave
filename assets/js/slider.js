@@ -50,12 +50,12 @@ export function slider() {
 
   /* Billedbeskrivelse array */
   const slideContents = [
-    "Billede 1 - Her er en beskrivelse af dette billede.",
-    "Billede 2 - Her er en beskrivelse af dette billede.",
-    "Billede 3 - Her er en beskrivelse af dette billede.",
-    "Billede 4 - Her er en beskrivelse af dette billede.",
-    "Billede 5 - Her er en beskrivelse af dette billede.",
-    "Billede 6 - Her er en beskrivelse af dette billede.",
+    "Lionel Messi wins this years Ballon d'or",
+    "Alexia Putellas wins the womens Ballon d'or",
+    "Vinicious Jr. takes home the Socrates Award for his humanitarian work",
+    "Emiliano Martinez wins the Yashin Trophy for best goalkeeper",
+    "Jude Bellingham wins the Kopa Trophy for best player under 21",
+    "Erling Haaland wins the Gerd Müller Trophy for best Striker",
   ];
 
   /* funktion (forEach) der "kører" de to arrays */

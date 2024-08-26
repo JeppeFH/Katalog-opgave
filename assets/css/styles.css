@@ -137,14 +137,20 @@ nav i {
 .hero {
   display: flex;
   max-width: 100%;
-  padding: 0 30px;
-  height: 80vh;
+  height: 85vh;
+  margin-bottom: 90px;
+  position: relative;
+  overflow: hidden;
 }
 
-/*Vores Overordnede slider komponent */
+/*Overordnede slider komponent */
 .slider-wrapper {
   height: 100%;
   width: 50%;
+  z-index: 2;
+  position: relative;
+  clip-path: polygon(0 -182%, 240% 375%, 100% 100%, 0 100%);
+  background: inherit;
 }
 
 .slider-buttons {
@@ -152,7 +158,7 @@ nav i {
   gap: 10px;
   bottom: 35px;
   position: relative;
-  margin-left: 5px;
+  justify-content: center;
 }
 
 .slider-buttons button {
@@ -170,20 +176,19 @@ nav i {
 /* Slider´s slide */
 .slider-wrapper .slides .single-slide {
   position: relative;
-  display: none; /* Slides er som udgangspunkt display:none - Kun når de får class'en 'active', bliver de vist */
+  display: none;
   user-select: none;
   height: 100%;
   animation-name: fade;
   animation-duration: 1s;
 }
 
-/* Slider´s slide, når den er active/valgt */
+/* Slider´s slide, når den er active */
 .slider-wrapper .slides .single-slide.active {
   display: flex;
   justify-content: center;
 }
 
-/* Slider´s slide, img */
 .slider-wrapper .slides .single-slide img {
   width: 100%;
   height: 100%;
@@ -194,12 +199,13 @@ nav i {
 .slider-wrapper .slides .slide-content {
   position: absolute;
   width: 90%;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
-  border-radius: 16px;
+  background-color: darkgoldenrod;
+  color: white;
+  border-radius: 10px;
   text-align: center;
-  padding: 20px 20px;
-  bottom: 32px;
+  padding: 15px 10px;
+  bottom: 40px;
+  font-size: 1.5rem;
 }
 
 /* Slider´s , display område */
@@ -224,18 +230,17 @@ nav i {
 /* Video */
 .hero-video {
   width: 50%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 310%, 0 50%);
+  background: inherit;
 }
 
 .hero-video video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.hero-video video::before {
-  content: "";
-  position: absolute;
-  transform: translateY(-50%) rotate(20deg);
 }
 
 /*Section [Player list]*/
