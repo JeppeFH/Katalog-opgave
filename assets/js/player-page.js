@@ -12,7 +12,7 @@ export function playersPage() {
     let playerID = new URLSearchParams(search).get("id");
 
     let findPlayer = players.find((player) => player.id == playerID);
-
+    console.log(findPlayer);
     playerPageContainer.insertAdjacentHTML(
       "beforeend",
       playerPageTmpl(findPlayer)

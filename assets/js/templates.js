@@ -7,7 +7,7 @@ export const playerListTmpl = (player) =>
   
   <p class="player-name" >${player.name}</p>
 
-  <button class="player-btn"><a href="players-page.html?id=${player.id}"></a><img src="${player.button}"></button> 
+  <button class="player-btn"><a href="players-page.html?id=${player.id}"><img src="${player.button}"></a></button> 
   
   <div class="logo-rank">
   <img src="${player.ballondorLogo}">
