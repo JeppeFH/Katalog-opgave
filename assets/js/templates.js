@@ -4,9 +4,11 @@ export const playerListTmpl = (player) =>
 <div class="player-card">
   <div class="player-img-container">
   <figure><img src="${player.picture}"></figure>
-
+  
   <p class="player-name" >${player.name}</p>
 
+  <button class="player-btn"><a href="players-page.html?id=${player.id}"></a><img src="${player.button}"></button> 
+  
   <div class="logo-rank">
   <img src="${player.ballondorLogo}">
   <p>${player.ranking}</p>
@@ -23,7 +25,7 @@ export const playerListTmpl = (player) =>
   <p>${player.positionName}</p>
   </div>
 
-  <button class="player-btn"><a href="players-page.html?id=${player.id}"></a><img src="${player.button}${player.id}"></button> 
+  
 
 <div>
 
