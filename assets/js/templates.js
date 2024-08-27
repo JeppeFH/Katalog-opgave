@@ -7,7 +7,7 @@ export const playerListTmpl = (player) =>
   
   <p class="player-name" >${player.name}</p>
 
-  <button class="player-btn"><a href="players-page.html?id=${player.id}"><img src="${player.button}"></a></button> 
+  <a player-btn href="players-page.html?id=${player.id}"><img src="${player.button}"></a>
   
   <div class="logo-rank">
   <img src="${player.ballondorLogo}">
@@ -34,9 +34,9 @@ export const playerPageTmpl = (player) =>
 
  <div class="grid-1">
 
-    <figure><img src="${player.picture}${player.id}"></figure>
+    <figure><img src="${player.picture}"></figure>
 
-  <div class="grid-1-container"
+  <div class="grid-1-container">
     <p class="player-name">${player.name}</p>
 
     <p class="headline">Position</p>
@@ -54,6 +54,7 @@ export const playerPageTmpl = (player) =>
 </div>
 
   <div class="grid-2">
+  <div class="grid-2-container">
     <p class="headline">Games</p>
     <p class="headline">Goals</p>
 
@@ -61,7 +62,10 @@ export const playerPageTmpl = (player) =>
     <p>${player.goals}</p>
 
     <p class="headline">Assists</p>
+    <p class="headline">G/A</p>
     <p>${player.assists}</p>
+    <p>${player.GA}</p>
+  </div>
   </div>
 
   <div class="grid-3">
@@ -75,26 +79,29 @@ export const playerPageTmpl = (player) =>
   </div>
 
   <div class="grid-5">
-    <p class="headline">Highlights</p>
-    <video src="${player.highlightVideo}">
-  </div>
-  
-  <div class="grid-6">
     <img src="${player.yellowCardsPicture}">
     <p class="headline">Yellow cards</p>
     <p>${player.yellowCards}</p>
   </div>
 
-  <div class="grid-7">
+  <div class="grid-6">
     <img src="${player.redCardsPicture}">
     <p class="headline">Red cards</p>
     <p>${player.redCards}</p>
   </div>
 
-  <div class="grid-8">
-    <p class="headline">Trophies</p>
+  <div class="grid-7">
+    <p class="headline">Club Trophies</p>
     <p>${player.trophies}</p>
   </div>
+  
+
+  <div class="grid-8">
+    <p class="headline">Highlights</p>
+    <video src="${player.highlightVideo}">
+  </div>
+  
+  
 
   </div> 
           `;
