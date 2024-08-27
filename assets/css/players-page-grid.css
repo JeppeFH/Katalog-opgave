@@ -118,15 +118,18 @@
   grid-column-end: 3;
 }
 
-.grid-8-video-container {
+.grid-8 div {
+  width: 522px;
   display: flex;
+  margin: 0 auto;
+  gap: 10px;
+  padding-top: 30px;
 }
 
 .grid-8 video {
   border-radius: 15px;
-  width: 40%;
-  height: 70%;
-  padding: 10px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .grid-9 {

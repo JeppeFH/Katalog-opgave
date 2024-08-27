@@ -101,8 +101,10 @@ export const playerPageTmpl = (player) =>
 
   <div class="grid-8">
     <p class="headline highlights">Highlights <i class="fa-solid fa-video"></i></p>
+    <div>
     <video src="${player.highlightVideo1}"></video>
     <video src="${player.highlightVideo2}"></video>
+    </div>
   </div>
 
    <div class="grid-9">
