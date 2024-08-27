@@ -43,7 +43,8 @@
 .grid-5,
 .grid-6,
 .grid-7,
-.grid-8 {
+.grid-8,
+.grid-9 {
   background-color: white;
   border-radius: 15px;
 }
@@ -112,14 +113,43 @@
 
 .grid-8 {
   width: 100%;
-  height: 450px;
-  grid-column: span 4;
-  grid-row: span 3;
+  height: 300px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-8-video-container {
+  display: flex;
 }
 
 .grid-8 video {
   border-radius: 15px;
-  width: 70%;
+  width: 40%;
   height: 70%;
   padding: 10px;
+}
+
+.grid-9 {
+  width: 100%;
+  height: 300px;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.grid-9 div {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+}
+
+.grid-9 div img {
+  overflow: hidden;
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+}
+
+.player-page-grid i {
+  color: goldenrod;
 }

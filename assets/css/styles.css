@@ -149,8 +149,6 @@ nav i {
   width: 50%;
   z-index: 2;
   position: relative;
-  clip-path: polygon(0 -182%, 240% 375%, 100% 100%, 0 100%);
-  background: inherit;
 }
 
 .slider-buttons {
@@ -233,8 +231,6 @@ nav i {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  clip-path: polygon(0 0, 100% 0, 100% 310%, 0 50%);
-  background: inherit;
 }
 
 .hero-video video {

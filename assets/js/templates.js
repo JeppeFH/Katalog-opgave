@@ -37,14 +37,11 @@ export const playerPageTmpl = (player) =>
     <figure><img src="${player.picture}"></figure>
 
   <div class="grid-1-container">
-  
-  
+
     <p id="player-name">${player.name} ${
     player.id === 0 ? '<i class="fa-solid fa-crown"></i>' : ""
   } <br> <span>Season 22/23</span></p>
     
-
-
     <p class="headline">Position</p>
     <p class="headline">Place of birth</p>
 
@@ -103,11 +100,20 @@ export const playerPageTmpl = (player) =>
   
 
   <div class="grid-8">
-    <p class="headline highlights">Highlights</p>
-    <video src="${player.highlightVideo}">
+    <p class="headline highlights">Highlights <i class="fa-solid fa-video"></i></p>
+    <video src="${player.highlightVideo1}"></video>
+    <video src="${player.highlightVideo2}"></video>
+  </div>
+
+   <div class="grid-9">
+   <p class="headline highlights">Gallery <i class="fa-solid fa-camera"></i></p>
+ <div>
+<img src="${player.picture}">
+<img src="${player.picture}">
+<img src="${player.picture}">
+<img src="${player.picture}">
+ </div>
   </div>
   
-  
-
   </div> 
           `;
