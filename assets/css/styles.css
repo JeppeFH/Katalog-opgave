@@ -49,7 +49,7 @@ nav a {
   font-size: 1.8rem;
   font-weight: bold;
   color: goldenrod;
-  font-family: "the-seasons", sans-serif;
+  font-family: "the-seasons", sans-serif !important;
 }
 
 nav i {

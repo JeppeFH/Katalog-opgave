@@ -9,13 +9,27 @@
 
 .player-page-grid p:not(.headline) {
   color: goldenrod;
-  font-size: 1.6rem;
+  font-size: 1.6rem !important;
   padding-bottom: 50px;
+  font-weight: bold;
 }
 
-.player-name {
+#player-name {
   font-weight: 600 !important;
-  font-size: 2rem !important;
+  font-size: 2.2rem !important;
   grid-column: span 2 !important;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+}
+
+#player-name span {
+  font-size: 1.3rem !important;
+  color: rgb(106, 106, 106);
+}
+
+.highlights {
+  padding-left: 25px;
+  padding-top: 20px;
+  font-size: 1.6rem;
+  color: black;
+  font-weight: bold;
 }
