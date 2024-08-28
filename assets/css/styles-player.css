@@ -4,26 +4,27 @@
   padding: 0 30px;
   max-width: 100%;
   justify-items: center;
+  margin-top: 50px;
 }
 
 .player-card {
   background-color: wheat;
-  padding: 40px; /* Padding around content */
+  padding: 40px;
   width: 80%;
   height: 72%;
   border-radius: 10px;
-  position: relative; /* Position context for absolute children */
-  overflow: hidden; /* Hide overflow of absolutely positioned elements */
+  position: relative;
+  overflow: hidden;
 }
 
 .player-img-container {
-  position: relative; /* Container for absolute positioning of .logo-rank */
+  position: relative;
   width: 100%;
 }
 
 .player-img {
-  width: 100%; /* Full width of the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
 .logo-rank {
@@ -41,7 +42,7 @@
 }
 
 .logo-rank img {
-  width: 100%; /* Adjust image width to fit container */
+  width: 100%;
 }
 
 .logo-rank p {
