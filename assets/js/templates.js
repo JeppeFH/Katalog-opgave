@@ -110,10 +110,10 @@ export const playerPageTmpl = (player) =>
    <div class="grid-9">
    <p class="headline highlights">Gallery <i class="fa-solid fa-camera"></i></p>
  <div>
-<img src="${player.picture}">
-<img src="${player.picture}">
-<img src="${player.picture}">
-<img src="${player.picture}">
+<img src="${player.pictureGallery}">
+<img src="${player.pictureGallery}">
+<img src="${player.pictureGallery}">
+<img src="${player.pictureGallery}">
  </div>
   </div>
   

@@ -2,6 +2,7 @@
   {
     "id": 0,
     "picture": "assets/img/players/messi.png",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "LIONEL MESSI",
     "ranking": "1th",
     "birthYear": "24. JUNE, 1987 (37)",
