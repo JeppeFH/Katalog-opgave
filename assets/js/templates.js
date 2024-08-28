@@ -1,31 +1,35 @@
 // Template functions - hver function opfører sig som en HTML template.
-export const playerListTmpl = (player) =>
-  ` 
-<div class="player-card">
-  <div class="player-img-container">
-  <img class="player-img" src="${player.picture}">
-
-  <div class="slider-info">
-  <div>
-  <p>${player.birthPlaceShort}</p>
-  <p>${player.birthYearShort}</p>
+export const playerListTmpl = (player) => `
+  <div class="player-card">
+    <div class="slider-container">
+      <div class="slider-inner">
+        <div class="player-img-container">
+          <img class="player-img" src="${player.picture}">
+        </div>
+        <div class="slider-info">
+          <div>
+            <p>${player.birthPlaceShort}</p>
+            <p>${player.birthYearShort}</p>
+          </div>
+          <img src="${player.teamLogo}">
+          <p>${player.team}</p>
+          <p>${player.positionName}</p>
+        </div>
+      </div>
+      <div class="slider-dots">
+        <div class="dot dot-left active"></div>
+        <div class="dot dot-right"></div>
+      </div>
+    </div>
+    <div class="logo-rank">
+      <img src="${player.ballondorLogo}">
+      <p>${player.ranking}<span>nd</span></p>
+    </div>
+    <a class="player-btn" href="players-page.html?id=${player.id}">
+      <img class="img-button" src="${player.button}">
+    </a>
   </div>
-  <img src="${player.teamLogo}">
-  <p>${player.team}</p>
-  <p>${player.positionName}</p>
-  </div>
-
-<div class="logo-rank">
-  <img src="${player.ballondorLogo}">
-  <p>${player.ranking}<span>nd</span</p>
-  </div>
-
-  <a player-btn href="players-page.html?id=${player.id}"><img class="img-button" src="${player.button}"></a>
-  
-  </div>
-     
-<div>
-  `;
+`;
 
 export const playerPageTmpl = (player) =>
   `
