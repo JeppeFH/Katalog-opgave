@@ -6,6 +6,7 @@ export const playerListTmpl = (player) => `
         <div class="player-img-container">
           <img class="player-img" src="${player.picture}">
         </div>
+
         <div class="slider-info">
           <div>
             <p>${player.birthPlaceShort}</p>
