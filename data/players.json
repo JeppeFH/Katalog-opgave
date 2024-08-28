@@ -1,10 +1,11 @@
 [
   {
     "id": 0,
-    "picture": "assets/img/players/messi.png",
+    "picture": "assets/img/rankings/1.png",
+    "playerPageImg": "assets/img/players/messi.png",
     "pictureGallery": "assets/img/gallery.png",
     "name": "LIONEL MESSI",
-    "ranking": "1th",
+    "ranking": "1",
     "birthYear": "24. JUNE, 1987 (37)",
     "birthYearShort": "37 y/o",
     "birthPlace": "ARGENTINA",
@@ -32,9 +33,11 @@
 
   {
     "id": 1,
-    "picture": "assets/img/players/haaland.png",
+    "picture": "assets/img/rankings/2.png",
+    "playerPageImg": "assets/img/players/haaland.png",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "ERLING HAALAND",
-    "ranking": "2th",
+    "ranking": "2",
     "birthYear": "21. JULY, 2000 (24)",
     "birthYearShort": "24 y/o",
     "birthPlace": "NORWAY",
@@ -62,9 +65,11 @@
 
   {
     "id": 2,
-    "picture": "assets/img/players/mbappe.png",
+    "picture": "assets/img/rankings/3.png",
+    "playerPageImg": "assets/img/players/mbappe.png",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "KYLIAN MBAPPE",
-    "ranking": "3th",
+    "ranking": "3",
     "birthYear": "20. DECEMBER, 1998 (25)",
     "birthYearShort": "25 y/o",
     "birthPlace": "FRANCE",
@@ -92,9 +97,11 @@
 
   {
     "id": 3,
-    "picture": "assets/img/players/kevindebruyne.png",
+    "picture": "assets/img/rankings/4.png",
+    "playerPageImg": "assets/img/players/kevindebruyne.png",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "KEVIN DE BRUYNE",
-    "ranking": "4th",
+    "ranking": "4",
     "birthYear": "28. JUNE, 1991 (33)",
     "birthYearShort": "33 y/o",
     "birthPlace": "BELGIUM",
@@ -122,9 +129,11 @@
 
   {
     "id": 4,
-    "picture": "assets/img/players/rodri.png",
+    "picture": "assets/img/rankings/5.png",
+    "playerPageImg": "assets/img/players/rodri.png",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "RODRI",
-    "ranking": "5th",
+    "ranking": "5",
     "birthYear": "12. JULY, 1996 (28)",
     "birthYearShort": "28 y/o",
     "birthPlace": "SPAIN",
@@ -152,9 +161,11 @@
 
   {
     "id": 5,
-    "picture": "assets/img/players/vinijr.png",
+    "picture": "assets/img/rankings/6.png",
+    "playerPageImg": "assets/img/players/vinijr.png",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "VINICIUS JR.",
-    "ranking": "6th",
+    "ranking": "6",
     "birthYear": "12. JULY, 2000 (24)",
     "birthYearShort": "24 y/o",
     "birthPlace": "BRAZIL",
@@ -182,9 +193,11 @@
 
   {
     "id": 6,
-    "picture": "assets/img/players/alvarez.png",
+    "picture": "assets/img/rankings/7.png",
+    "playerPageImg": "assets/img/players/alvarez.png",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "JULIAN ALVAREZ",
-    "ranking": "7th",
+    "ranking": "7",
     "birthYear": "31. JANUARY, 2000 (24)",
     "birthYearShort": "24 y/o",
     "birthPlace": "ARGENTINA",
@@ -212,9 +225,11 @@
 
   {
     "id": 7,
-    "picture": "assets/img/players/bernardo silva.png",
+    "picture": "assets/img/rankings/8.png",
+    "playerPageImg": "assets/img/players/bernardo silva.png",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "BERNARDO SILVA",
-    "ranking": "8th",
+    "ranking": "8",
     "birthYear": "10. AUGUST, 1994 (30)",
     "birthYearShort": "30 y/o",
     "birthPlace": "PORTUGAL",
@@ -242,9 +257,11 @@
 
   {
     "id": 8,
-    "picture": "assets/img/players/osimhen",
+    "picture": "assets/img/rankings/9.png",
+    "playerPageImg": "assets/img/players/osimhen",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "VICTOR OSIMHEN",
-    "ranking": "9th",
+    "ranking": "9",
     "birthYear": "29. DECEMBER, 1998 (25)",
     "birthYearShort": "25 y/o",
     "birthPlace": "NIGERIA",
@@ -272,9 +289,11 @@
 
   {
     "id": 9,
-    "picture": "assets/img/players/lukamodric.png",
+    "picture": "assets/img/rankings/10.png",
+    "playerPageImg": "assets/img/players/lukamodric.png",
+    "pictureGallery": "assets/img/gallery.png",
     "name": "LUKA MODRIC",
-    "ranking": "10th",
+    "ranking": "10",
     "birthYear": "9. SEPTEMBER, 1985 (38)",
     "birthYearShort": "38 y/o",
     "birthPlace": "CROATIA",

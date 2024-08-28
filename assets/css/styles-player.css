@@ -1,0 +1,71 @@
+.player-container {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, auto);
+  padding: 0 30px;
+  max-width: 100%;
+  justify-items: center;
+}
+
+.player-card {
+  background-color: wheat;
+  padding: 40px; /* Padding around content */
+  width: 80%;
+  height: 72%;
+  border-radius: 10px;
+  position: relative; /* Position context for absolute children */
+  overflow: hidden; /* Hide overflow of absolutely positioned elements */
+}
+
+.player-img-container {
+  position: relative; /* Container for absolute positioning of .logo-rank */
+  width: 100%;
+}
+
+.player-img {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-rank {
+  position: absolute;
+  top: -7%;
+  right: -11%;
+  width: 80px;
+  background-color: black;
+  border: solid #b9ab53;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo-rank img {
+  width: 100%; /* Adjust image width to fit container */
+}
+
+.logo-rank p {
+  color: #b9ab53;
+  font-size: 1.5rem;
+  text-align: center;
+  border-top: solid #b9ab53;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: bolder;
+  margin: 0;
+  width: 74px;
+  margin-top: 7px;
+}
+
+.logo-rank p span {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.img-button {
+  width: 30px;
+}
+
+/* Slider info */
+.slider-info img {
+  width: 20%;
+}

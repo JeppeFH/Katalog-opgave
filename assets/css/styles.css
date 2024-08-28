@@ -48,7 +48,7 @@ nav img {
 nav a {
   font-size: 1.8rem;
   font-weight: bold;
-  color: goldenrod;
+  color: #d9cb50;
   font-family: "the-seasons", sans-serif !important;
 }
 
@@ -400,13 +400,6 @@ footer button:hover {
 
 .bottom-footer a:hover {
   text-decoration: underline;
-}
-
-/*Responsive*/
-@media screen and (max-width: 768px) {
-  /*Section [Hero]*/
-
-  /*Section [name]*/
 }
 
 /*footer responsive*/
