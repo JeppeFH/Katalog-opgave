@@ -5,6 +5,7 @@ export const playerListTmpl = (player) => `
       <div class="slider-inner">
         <div class="player-img-container">
           <img class="player-img" src="${player.picture}">
+          
         </div>
 
         <div class="slider-info">
@@ -36,7 +37,10 @@ export const playerPageTmpl = (player) =>
 
  <div class="grid-1">
 
-    <figure><img src="${player.playerPageImg}"></figure>
+    <figure>
+    <img src="${player.playerPageImg}">
+    <img src="${player.teamLogo}">
+    </figure>
 
   <div class="grid-1-container">
 

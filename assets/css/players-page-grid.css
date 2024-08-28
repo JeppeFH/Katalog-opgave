@@ -26,14 +26,25 @@
   display: flex;
   width: 100%;
   height: 404px;
-  padding-left: 25px;
   padding-top: 20px;
 }
 
+.grid-1 figure {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 150px;
+  align-items: center;
+}
+
 .grid-1 img {
-  width: 100%;
-  height: 20%;
+  width: 51%;
+  height: 26%;
   border-radius: 50%;
+}
+
+.grid-1 img:last-child {
+  height: 20%;
 }
 
 .grid-1,
@@ -183,8 +194,8 @@
   .grid-1 {
     grid-column: 1 / span 2;
     grid-row: 1;
-    padding-left: 128px;
-    padding-top: 65px;
+    padding-left: 75px;
+    padding-top: 69px;
   }
 
   .grid-2 {
