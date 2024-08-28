@@ -8,13 +8,11 @@ export const playerListTmpl = (player) => `
         </div>
 
         <div class="slider-info">
-          <div>
-            <p>${player.birthPlaceShort}</p>
-            <p>${player.birthYearShort}</p>
-          </div>
-          <img src="${player.teamLogo}">
-          <p>${player.team}</p>
-          <p>${player.positionName}</p>
+          <p><span>Name: </span> ${player.name}</p>
+          <p><span>Country: </span> ${player.birthPlace}</p>
+          <p><span>Age: </span> ${player.birthYearShort}</p>
+          <p><span>Position: </span> ${player.position}</p>
+          <p><span>Team: </span> ${player.team} <img src="${player.teamLogo}">  </p>
         </div>
       </div>
       <div class="slider-dots">

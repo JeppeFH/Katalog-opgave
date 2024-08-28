@@ -30,8 +30,8 @@
 
 .logo-rank {
   position: absolute;
-  top: -7%;
-  right: -11%;
+  top: 0%;
+  right: 0%;
   width: 80px;
   background-color: black;
   border: solid #b9ab53;
@@ -40,6 +40,7 @@
   flex-direction: column;
   align-items: center;
   z-index: 1;
+  border-top-right-radius: 10px;
 }
 
 .logo-rank img {
@@ -146,6 +147,86 @@
   transform: translateX(0%);
 }
 
+/* Slider info - info inside */
+.slider-info p {
+  background-color: #b9ab53;
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: start;
+  margin-bottom: 8px;
+  width: 200px;
+  font-family: "New Amsterdam", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.slider-info span {
+  color: black;
+}
+
 .slider-info img {
-  width: 20%;
+  width: 15%;
+}
+
+/* Responsive */
+@media screen and (max-width: 1240px) {
+  .player-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .logo-rank {
+    width: 58px;
+  }
+
+  .logo-rank p {
+    width: 58px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .slider-info p {
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .player-card {
+    margin-bottom: 40px;
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  .logo-rank {
+    display: block;
+    width: 90px;
+  }
+
+  .logo-rank p {
+    font-size: 2.5rem;
+    width: 77px;
+  }
+
+  .logo-rank p span {
+    font-size: 1.5rem;
+  }
+
+  .player-img {
+    height: 100%;
+  }
+
+  .slider-info p {
+    padding: 10px;
+    font-size: 2.3rem;
+  }
 }
