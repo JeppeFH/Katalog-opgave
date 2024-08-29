@@ -15,4 +15,36 @@ export function playersList() {
       );
     });
   }
+
+  /* List view */
+  let listIcon = document.querySelector(".fa-bars");
+  let gitterIcon = document.querySelector(".fa-grip");
+
+  /* Click event gitter */
+
+  /*  gitterIcon.addEventListener("click", () => {
+    playerListContainer.classList.remove("player-list");
+    playerListContainer.classList.add("player-card");
+    playerListContainer.innerHTML = "";
+    players.forEach((post) => {
+      playerListContainer.insertAdjacentHTML(
+        "beforeend",
+        profileGridTmpl(post)
+      );
+    });
+  }); */
+
+  /* Click event list */
+
+  /* listIcon.addEventListener("click", () => {
+    playerListContainer.classList.remove("player-card");
+    playerListContainer.classList.add("player-list");
+    playerListContainer.innerHTML = "";
+    players.forEach((post) => {
+      playerListContainer.insertAdjacentHTML(
+        "beforeend",
+        profileListTmpl(post)
+      );
+    });
+  }); */
 }

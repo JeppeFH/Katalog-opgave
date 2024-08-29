@@ -32,17 +32,20 @@ export const playerListTmpl = (player) => `
 `;
 
 export const profileGridTmpl = (player) =>
-  ` <section class="team-grid">
-    <div class="team-profile">
+  ` <section class="player-list">
+    <div class="player-profile">
         <img src="${player.playerPageImg}">
+        <div class="info-container">
         <p>${player.name}</p>
         <p>${player.team}</p>
         <p>${player.birthPlace}</p>
         <p>${player.birthYearShort}</p>
         <p>${player.position}</p>
-        
-      </div>
-      </section>
+        <a class="player-btn" href="players-page.html?id=${player.id}">
+        <img class="img-button" src="${player.button}">
+    </div>
+    </div>
+    </section>
 `;
 
 export const playerPageTmpl = (player) =>
