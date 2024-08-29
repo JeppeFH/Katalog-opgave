@@ -31,6 +31,20 @@ export const playerListTmpl = (player) => `
   </div>
 `;
 
+export const profileGridTmpl = (player) =>
+  ` <section class="team-grid">
+    <div class="team-profile">
+        <img src="${player.playerPageImg}">
+        <p>${player.name}</p>
+        <p>${player.team}</p>
+        <p>${player.birthPlace}</p>
+        <p>${player.birthYearShort}</p>
+        <p>${player.position}</p>
+        
+      </div>
+      </section>
+`;
+
 export const playerPageTmpl = (player) =>
   `
 <div class="player-page-grid">

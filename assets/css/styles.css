@@ -42,7 +42,6 @@ nav ul {
 nav img {
   width: 70px;
   height: 80px;
-  margin-left: 20px;
 }
 
 nav a {
@@ -241,6 +240,30 @@ nav i {
 }
 
 /*Section [Player list]*/
+.list-and-grid {
+  color: #d9cb50;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.fa-grip {
+  font-size: 3.3rem;
+}
+
+.fa-bars {
+  font-size: 2.8rem;
+}
+
+.fa-grip:hover,
+.fa-bars:hover {
+  color: #a19633;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+
 .player-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
