@@ -1,5 +1,5 @@
 // Template functions - hver function opfører sig som en HTML template.
-export const playerListTmpl = (player) => `
+export const playerGridTmpl = (player) => `
   <div class="player-card">
     <div class="slider-container">
       <div class="slider-inner">
@@ -31,11 +31,11 @@ export const playerListTmpl = (player) => `
   </div>
 `;
 
-export const profileGridTmpl = (player) =>
+export const playerListTmpl = (player) =>
   ` <section class="player-list">
     <div class="player-profile">
         <img src="${player.playerPageImg}">
-        <div class="info-container">
+        <div class="list-container">
         <p>${player.name}</p>
         <p>${player.team}</p>
         <p>${player.birthPlace}</p>

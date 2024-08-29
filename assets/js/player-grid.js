@@ -1,17 +1,17 @@
 import { fetchPlayers } from "./fetch-data.js";
-import { playerListTmpl } from "./templates.js";
+import { playerGridTmpl, playerListTmpl } from "./templates.js";
 
 // Array med produkter
 let players = await fetchPlayers();
 
-export function playersList() {
+export function playersGrid() {
   let playerListContainer = document.querySelector(".player-container");
 
   if (playerListContainer) {
     players.forEach((event) => {
       playerListContainer.insertAdjacentHTML(
         "beforeend",
-        playerListTmpl(event)
+        playerGridTmpl(event)
       );
     });
   }
@@ -22,7 +22,7 @@ export function playersList() {
 
   /* Click event gitter */
 
-  /*  gitterIcon.addEventListener("click", () => {
+  /* gitterIcon.addEventListener("click", () => {
     playerListContainer.classList.remove("player-list");
     playerListContainer.classList.add("player-card");
     playerListContainer.innerHTML = "";
@@ -32,11 +32,11 @@ export function playersList() {
         profileGridTmpl(post)
       );
     });
-  }); */
+  });*/
 
   /* Click event list */
 
-  /* listIcon.addEventListener("click", () => {
+  /* listIcon.addEventListxxener("click", () => {
     playerListContainer.classList.remove("player-card");
     playerListContainer.classList.add("player-list");
     playerListContainer.innerHTML = "";
@@ -47,4 +47,14 @@ export function playersList() {
       );
     });
   }); */
+}
+
+export function playersList() {
+  let playerList = document.querySelector(".player-list");
+
+  if (playerList) {
+    players.forEach((event) => {
+      playerList.insertAdjacentHTML("beforeend", playerListTmpl(event));
+    });
+  }
 }

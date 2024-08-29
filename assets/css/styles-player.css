@@ -17,6 +17,10 @@
   background-color: #b9ab53;
 }
 
+.player-card.none {
+  display: none;
+}
+
 .player-img-container {
   position: relative;
   width: 100%;
