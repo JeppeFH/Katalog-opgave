@@ -17,7 +17,7 @@
   background-color: #b9ab53;
 }
 
-.player-card.none {
+.player-card.active {
   display: none;
 }
 
@@ -173,7 +173,7 @@
   width: 15%;
 }
 
-/* Responsive */
+/* Responsiv */
 @media screen and (max-width: 1240px) {
   .player-container {
     grid-template-columns: repeat(2, 1fr);
